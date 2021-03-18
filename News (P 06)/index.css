@@ -46,13 +46,27 @@
 
 #post {
     width: 70%;
-    margin-top: 6%;
     margin-left: 27%;
-    padding: 10px;
+    padding: 20px;
 }
 
-article {
-    margin-bottom: 25px;
+#categories {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(233, 231, 231);
+    font-family: "Oswald", Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: rgb(180, 180, 180);
+}
+
+#categories a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+#categories a:hover {
+    color: rgb(61, 61, 61);
 }
 
 #post-title {
