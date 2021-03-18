@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald:wght@500&family=Raleway:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+::selection {
+    background-color: pink;
+    color: white;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border-bottom: solid 0.5px rgb(44, 44, 44);
+    list-style-type: none;
+}
+
+.nav-links {
+    display: inline;
+    text-align: center;
+}
+
+.nav-links a {
+    display: inline-block;
+    padding: 11.5px;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: "Oswald", arial, sans-serif;
+    color: #B6BFBF;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+#banner-img {
+    padding: 40px;
+    background-color: black;
+}
+
+#post {
+    width: 70%;
+    margin-top: 6%;
+    margin-left: 27%;
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+#post-title {
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+    line-height: 1.3em;
+    font-size: 2.8em;
+    color: rgb(61, 61, 61);
+    font-family: "Lato", arial, sans-serif;
+}
+
+#date {
+    margin-bottom: 40px;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 1em;
+    color: rgb(180, 180, 180);
+}
+
+article img {
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(233, 231, 231);
+    max-width: 100%;
+}
+
+article p {
+    margin-top: 25px;
+    text-align: left;
+    line-height: 30px;
+    font-family: "Raleway", arial, sans-serif;
+    color: #666;
+    font-size: 1.25em;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.media-title {
+    padding: 30px 0px;
+    margin: 30px 0px;
+    border-top: 2px solid rgb(233, 231, 231);
+    border-bottom: 2px solid rgb(233, 231, 231);
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    color:rgb(61, 61, 61);
+}
+
+#videos iframe {
+    display: block;
+    width: 100%;
+}
+
+#imgs img {
+    margin: 10px 0px;
+    max-width: 100%;
+}
+
+#social-buttons {
+    width: 70%;
+    margin-left: 27%;
+    padding: 10px;
+    padding-bottom: 50px;
+    font-family: "Oswald", Arial, sans-serif;
+    color: rgb(61, 61, 61);
+}
+
+#social-buttons h3 {
+    width: 5%;
+    padding: 10px 0px 20px;
+    border-top: 2px solid rgb(233, 231, 231);
+    font-size: 0.7em;
+}
+
+.fa {
+    padding: 10px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity: 50%;
+}
+
+.fa-twitter {
+    background: #27baf5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #32539b;
+    color: white;
+}
+
+.fa-google {
+    background: #f0422b;
+    color: white;
+}
+
+#related-notes {
+    width: 70%;
+    margin-left: 27%;
+    padding-bottom: 80px;
+    font-family: "Lato", Arial, sans-serif;
+    color: rgb(61, 61, 61);
+}
+
+#related-notes h3 {
+    display: inline-block;
+    padding: 10px 0px 20px;
+    border-top: 2px solid rgb(233, 231, 231);
+    font-size: 0.7em;
+}
+
+.related-notes {
+    list-style: none;
+}
+
+.related-links {
+    display: inline-block;
+    width: 30%;
+}
+
+.related-links a {
+    text-align: left;
+    color: pink;
+    font-size: 0.8em;
+}
+
+.related-links time {
+    color:rgb(180, 180, 180);
+    font-size: 0.9em;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.related-links p {
+    max-width: 95%;
+}
+
+.related-links img {
+    opacity: 50%;
+}
+
+.related-links img:hover {
+    opacity: 100%;
+}
+
+.related-links p:hover {
+    color: rgb(61, 61, 61);
+}
+
+#tags {
+    width: 70%;
+    margin-left: 27%;
+    padding-bottom: 50px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.tags {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10%;
+    background-color:rgb(233, 231, 231);
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(61, 61, 61);
+}
+
+.tags:hover {
+    background-color: pink;
+    color: white;
+}
+
+footer {
+    height: 10px;
+    padding: 50px;
+    background-color: black;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1px;
+    color:rgb(180, 180, 180);
+}
+
+#social-footer {
+    float: right;
+}
+
+.footer-btn {
+    background-color: black;
+    color: rgb(44, 44, 44);
+    border-radius: 0;
+    padding: 0px 5px;
+    font-size: 20px;
+    width: 17.6px;
+}
+
+.footer-btn:hover{
+    color: white;
+
+}
