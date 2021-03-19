@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: Verdana, Tahoma, serif;
+    text-align: center;
+}
+
+#page-body {
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+#header-menu {
+    margin: 5px auto;
+    width: 95%;
+    padding: 9px 0px;
+    background: linear-gradient(180deg, rgba(59,59,59,1) 18%, rgba(74,74,74,1) 71%);
+    border: solid 1px black;
+}
+
+#header-menu ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.menu-link, .social-btn {
+    display: inline;
+}
+
+.menu-link a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Pathway Gothic One", Verdana, serif;
+    letter-spacing: 1px;
+    color: white;
+    padding: 9px 10px;
+    border-right: 1px solid black;
+    text-transform: uppercase;
+    text-shadow: black 1px 1px;
+}
+
+.social-btn a {
+    font-size: 19px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: black 1px 1px;
+    float: right;
+}
+
+.menu-link a:hover {
+    background-color: #2a2a2a;
+}
+
+.social-btn a:hover {
+    color: rgb(207, 206, 206);
+}
+
+#content, #comments {
+    width: 64%;
+    margin: 30px 25px;
+    text-align: left;
+}
+
+#article-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#time-comments {
+    font-size: 12px;
+    margin: 15px 0px;
+}
+
+#time-comments span {
+    color: rgb(136, 136, 136);
+    padding-right: 10px;
+}
+
+#time-comments span a {
+    text-decoration: none;
+}
+
+#time-comments span a:hover {
+    color: red;
+}
+
+#share-btns {
+    margin: 20px 0px;
+}
+
+#share-btns a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5%;
+    margin: 2px;
+}
+
+#share-btns .fa {
+    font-size: 15px;
+    padding: 2px;
+}
+
+.twitter {
+    background: #27baf5;
+}
+
+.facebook {
+    background: #32539b;
+}
+
+.pinterest {
+    background: #e21a00;
+}
+
+.reddit {
+    background: #ff5d1d;
+}
+
+#article-img {
+    margin: 10px auto 30px;
+}
+
+p {
+    font-size: 13px;
+    margin-bottom: 18px;
+    text-align: left;
+    line-height: 20px;
+    color: #333;
+}
+
+p a {
+    text-decoration: none;
+    color: red;
+}
+
+p a:hover {
+    color: rgb(92, 2, 2);
+}
+
+#article-video {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #333;
+}
+
+#article-video iframe {
+    width: 100%;
+}
+
+#article-info {
+    padding: 12px 0px;
+    border-bottom: 1px solid #333;
+}
+
+#article-info p {
+    margin: 3px 0px;
+    font-weight: bold;
+}
+
+#article-info p a {
+    font-weight: normal;
+}
+
+#comments {
+    color: #333;
+}
+
+#comments h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#comments p {
+    font-size: 9.5px;
+    line-height: 13px;
+}
+
+#comments span {
+    text-decoration-line: underline;
+}
+
+#footer-background {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    width: 96%;
+    height: 120px;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: black;
+}
+
+#footer-menu ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.footer-link, .footer-btn {
+    display: inline;
+}
+
+.footer-link a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Pathway Gothic One", Verdana, serif;
+    letter-spacing: 1px;
+    color: white;
+    padding: 9px 10px;
+    text-transform: uppercase;
+}
+
+.footer-link a:hover {
+    background-color: #2a2a2a;
+}
+
+.footer-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 0px 10px;
+}
+
+.footer-btn a:hover {
+    color: rgb(207, 206, 206);
+}
+
+footer p {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+footer p a {
+    color: #777;
+}
+
+footer p a:hover {
+    color: #777;
+}
