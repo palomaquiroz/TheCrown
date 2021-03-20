@@ -19,12 +19,12 @@
     list-style-type: none;
 }
 
-.nav-links {
+.navLinks {
     display: inline;
     text-align: center;
 }
 
-.nav-links a {
+.navLinks a {
     display: inline-block;
     padding: 11.5px;
     background-color: black;
@@ -35,11 +35,11 @@
     color: #B6BFBF;
 }
 
-.nav-links a:hover {
+.navLinks a:hover {
     color: white;
 }
 
-#banner-img {
+#bannerImg {
     padding: 40px;
     background-color: black;
 }
@@ -69,7 +69,7 @@
     color: rgb(61, 61, 61);
 }
 
-#post-title {
+#postTitle {
     margin-bottom: 10px;
     letter-spacing: -2px;
     line-height: 1.3em;
@@ -100,11 +100,11 @@ article p {
     font-size: 1.25em;
 }
 
-.bold-text {
+.boldText {
     font-weight: bolder;
 }
 
-.media-title {
+.mediaTitle {
     padding: 30px 0px;
     margin: 30px 0px;
     border-top: 2px solid rgb(233, 231, 231);
@@ -125,7 +125,7 @@ article p {
     max-width: 100%;
 }
 
-#social-buttons {
+#socialButtons {
     width: 70%;
     margin-left: 27%;
     padding: 10px;
@@ -134,7 +134,7 @@ article p {
     color: rgb(61, 61, 61);
 }
 
-#social-buttons h3 {
+#socialButtons h3 {
     width: 5%;
     padding: 10px 0px 20px;
     border-top: 2px solid rgb(233, 231, 231);
@@ -168,7 +168,7 @@ article p {
     color: white;
 }
 
-#related-notes {
+#relatedNotes {
     width: 70%;
     margin-left: 27%;
     padding-bottom: 80px;
@@ -176,47 +176,47 @@ article p {
     color: rgb(61, 61, 61);
 }
 
-#related-notes h3 {
+#relatedNotes h3 {
     display: inline-block;
     padding: 10px 0px 20px;
     border-top: 2px solid rgb(233, 231, 231);
     font-size: 0.7em;
 }
 
-.related-notes {
+.relatedNotes {
     list-style: none;
 }
 
-.related-links {
+.relatedLinks {
     display: inline-block;
     width: 30%;
 }
 
-.related-links a {
+.relatedLinks a {
     text-align: left;
     color: pink;
     font-size: 0.8em;
 }
 
-.related-links time {
+.relatedLinks time {
     color:rgb(180, 180, 180);
     font-size: 0.9em;
     font-family: "Raleway", Arial, sans-serif;
 }
 
-.related-links p {
+.relatedLinks p {
     max-width: 95%;
 }
 
-.related-links img {
+.relatedLinks img {
     opacity: 50%;
 }
 
-.related-links img:hover {
+.relatedLinks img:hover {
     opacity: 100%;
 }
 
-.related-links p:hover {
+.relatedLinks p:hover {
     color: rgb(61, 61, 61);
 }
 
@@ -252,11 +252,11 @@ footer {
     color:rgb(180, 180, 180);
 }
 
-#social-footer {
+#socialFooter {
     float: right;
 }
 
-.footer-btn {
+.footerBtn {
     background-color: black;
     color: rgb(44, 44, 44);
     border-radius: 0;
@@ -265,7 +265,7 @@ footer {
     width: 17.6px;
 }
 
-.footer-btn:hover{
+.footerBtn:hover{
     color: white;
 
 }
