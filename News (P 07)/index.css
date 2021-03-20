@@ -12,14 +12,14 @@ body {
     text-align: center;
 }
 
-#page-body {
+#pageBody {
     width: 75%;
     margin: auto;
     background-color: white;
     padding-bottom: 30px;
 }
 
-#header-menu {
+#headerMenu {
     margin: 5px auto;
     width: 95%;
     padding: 9px 0px;
@@ -27,16 +27,16 @@ body {
     border: solid 1px black;
 }
 
-#header-menu ul {
+#headerMenu ul {
     list-style-type: none;
     text-align: left;
 }
 
-.menu-link, .social-btn {
+.menuLink, .socialBtn {
     display: inline;
 }
 
-.menu-link a {
+.menuLink a {
     text-decoration: none;
     font-size: 22px;
     font-family: "Pathway Gothic One", Verdana, serif;
@@ -48,7 +48,7 @@ body {
     text-shadow: black 1px 1px;
 }
 
-.social-btn a {
+.socialBtn a {
     font-size: 19px;
     padding: 5px 10px;
     text-decoration: none;
@@ -57,11 +57,11 @@ body {
     float: right;
 }
 
-.menu-link a:hover {
+.menuLink a:hover {
     background-color: #2a2a2a;
 }
 
-.social-btn a:hover {
+.socialBtn a:hover {
     color: rgb(207, 206, 206);
 }
 
@@ -71,34 +71,34 @@ body {
     text-align: left;
 }
 
-#article-title {
+#articleTitle {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-#time-comments {
+#timeComments {
     font-size: 12px;
     margin: 15px 0px;
 }
 
-#time-comments span {
+#timeComments span {
     color: rgb(136, 136, 136);
     padding-right: 10px;
 }
 
-#time-comments span a {
+#timeComments span a {
     text-decoration: none;
 }
 
-#time-comments span a:hover {
+#timeComments span a:hover {
     color: red;
 }
 
-#share-btns {
+#shareBtns {
     margin: 20px 0px;
 }
 
-#share-btns a {
+#shareBtns a {
     text-align: center;
     text-decoration: none;
     font-size: 10px;
@@ -108,7 +108,7 @@ body {
     margin: 2px;
 }
 
-#share-btns .fa {
+#shareBtns .fa {
     font-size: 15px;
     padding: 2px;
 }
@@ -129,7 +129,7 @@ body {
     background: #ff5d1d;
 }
 
-#article-img {
+#articleImg {
     margin: 10px auto 30px;
 }
 
@@ -150,26 +150,26 @@ p a:hover {
     color: rgb(92, 2, 2);
 }
 
-#article-video {
+#articleVideo {
     padding-bottom: 50px;
     border-bottom: 1px solid #333;
 }
 
-#article-video iframe {
+#articleVideo iframe {
     width: 100%;
 }
 
-#article-info {
+#articleInfo {
     padding: 12px 0px;
     border-bottom: 1px solid #333;
 }
 
-#article-info p {
+#articleInfo p {
     margin: 3px 0px;
     font-weight: bold;
 }
 
-#article-info p a {
+#articleInfo p a {
     font-weight: normal;
 }
 
@@ -192,7 +192,7 @@ p a:hover {
     text-decoration-line: underline;
 }
 
-#footer-background {
+#footerBackground {
     background-color: white;
     width: 75%;
     margin: auto;
@@ -206,16 +206,16 @@ footer {
     background-color: black;
 }
 
-#footer-menu ul {
+#footerMenu ul {
     list-style-type: none;
     text-align: left;
 }
 
-.footer-link, .footer-btn {
+.footerLink, .footerBtn {
     display: inline;
 }
 
-.footer-link a {
+.footerLink a {
     text-decoration: none;
     font-size: 22px;
     font-family: "Pathway Gothic One", Verdana, serif;
@@ -225,18 +225,18 @@ footer {
     text-transform: uppercase;
 }
 
-.footer-link a:hover {
+.footerLink a:hover {
     background-color: #2a2a2a;
 }
 
-.footer-btn a {
+.footerBtn a {
     text-decoration: none;
     color: white;
     font-size: 22px;
     padding: 0px 10px;
 }
 
-.footer-btn a:hover {
+.footerBtn a:hover {
     color: rgb(207, 206, 206);
 }
 
