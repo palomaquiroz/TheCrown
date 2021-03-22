@@ -187,6 +187,24 @@ p a:hover {
     text-decoration-line: underline;
 }
 
+.linkToProblem06 {
+    width: 10%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: red;
+}
+
+.linkToProblem06 a {
+    text-decoration: none;
+    color: white;
+    font-family: "Pathway Gothic One", Arial, Helvetica, sans-serif;
+}
+
+.linkToProblem06:hover {
+    background-color: black;
+}
+
 #footerBackground {
     background-color: white;
     width: 75%;
