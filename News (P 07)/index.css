@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
-    font-size: 100%;
-}
 
 body {
     background-color: rgb(230, 230, 230);
@@ -42,7 +37,7 @@ body {
     font-family: "Pathway Gothic One", Verdana, serif;
     letter-spacing: 1px;
     color: white;
-    padding: 9px 10px;
+    padding: 8px 10px;
     border-right: 1px solid black;
     text-transform: uppercase;
     text-shadow: black 1px 1px;
